@@ -1,0 +1,20 @@
+
+## Specify the viewer
+/vis/open OGL                                 # Use OpenGL
+
+## Specify objects to draw
+/vis/drawVolume world                         # Volumes
+/vis/scene/add/trajectories smooth            # Particle trajectories
+/vis/scene/endOfEventAction accumulate        # Superimpose all of the events
+
+## Add decorations
+/vis/scene/add/axes 0 15 883 200 mm                           # x, y , z and the length of axes
+
+## To get nice view
+/vis/viewer/set/style surface               # Volume style (surface/wireframe)
+/vis/viewer/set/edge true               # Volume style (surface/wireframe)
+/vis/viewer/set/auxiliaryEdge true            # Show edges of curved surfaces
+/vis/viewer/set/lineSegmentsPerCircle 100     # Make circles smoothed
+/vis/viewer/set/viewpointThetaPhi 120 150     # Nice camera angle 120 150 
+#/vis/viewer/set/viewpointThetaPhi 0 0     # Nice camera angle 120 150
+#/vis/viewer/zoom 1

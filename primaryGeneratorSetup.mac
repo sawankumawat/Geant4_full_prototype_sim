@@ -1,0 +1,8 @@
+#------------------------------------------------------------------------------------
+# primaryGeneratorSetup.mac: Set up the primary generator environment
+#------------------------------------------------------------------------------------
+
+## You should not use 'gun' UI commands when you set multiple guns
+## in your primary generator codes. 
+
+
