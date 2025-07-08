@@ -8,7 +8,8 @@
 /vis/scene/endOfEventAction accumulate        # Superimpose all of the events
 
 ## Add decorations
-/vis/scene/add/axes 0 15 883 200 mm                           # x, y , z and the length of axes
+#/vis/scene/add/axes 0 15 883 200 mm                           # x, y , z and the length of axes
+/vis/scene/add/axes   
 
 ## To get nice view
 /vis/viewer/set/style surface               # Volume style (surface/wireframe)
